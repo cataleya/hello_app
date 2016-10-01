@@ -5,6 +5,10 @@ class ApplicationController < ActionController::Base
   	render html: "¡hola, mundo!"
   end	
 
+  def greeting
+  	render html: "herzlichen gruss!"
+  end
+
   def goodbye
   	render html:"goodbye world"
   end
